@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(245, 245, 230);
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+hr {
+  margin: 1rem;
+}
+/* creative */
+.creative {
+  background-color: #fff;
+  color: grey;
+  text-transform: uppercase;
+  width: 250px;
+  height: 700px;
+  padding-right: 26px;
+  position: relative;
+}
+.creative h1 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 18px;
+}
+.creative a {
+  color: grey;
+  padding-right: 10px;
+}
+.creative li {
+  display: flex;
+  padding: 25px;
+  font-size: 13px;
+  transition: 400ms ease;
+}
+.creative li:hover {
+  color: rgb(243, 33, 33);
+}
+.upgrade li {
+  bottom: 10px;
+  position: absolute;
+}
+/* creative ends */
+
+/* profile */
+.profile {
+  width: 350px;
+  border-radius: 10px;
+  background-image: url(background.jpg);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin-top: 2rem;
+  margin-right: 35px;
+}
+.image {
+  position: relative;
+  height: 200px;
+}
+
+.face {
+  position: absolute;
+  border-radius: 50%;
+  border: 0.3rem solid #fff;
+  width: 120px;
+  top: 200px;
+  left: 110px;
+}
+.text {
+  padding-top: 8rem;
+  padding-left: 7rem;
+  align-content: center;
+}
+.text h4 {
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 6rem;
+  text-align: left;
+}
+.text a {
+  padding-top: 8rem;
+  padding-left: 7rem;
+  align-content: center;
+  text-decoration: none;
+  color: rgb(163, 163, 85);
+  padding: 10px;
+}
+.text q {
+  font-size: 1rem;
+  text-align: center;
+  justify-content: center;
+  margin-right: 25px;
+}
+.text a:hover {
+  color: rgb(219, 47, 47);
+}
+
+.status {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  align-content: center;
+}
+
+/* Form */
+.form {
+  background-color: #fff;
+  width: 435px;
+  height: 620px;
+  padding: 10px;
+  margin-top: 32px;
+  border-radius: 10px;
+  margin-right: 30px;
+  position: relative;
+}
+.form h1 {
+  margin: 15px;
+}
+.form p {
+  color: grey;
+  font-size: 16px;
+  padding-left: 12px;
+}
+.form input {
+  background-color: rgb(243, 226, 229);
+  border-radius: 5px;
+  margin: 0.5rem;
+  height: 40px;
+  border: 0.1rem solid rgb(192, 181, 181);
+  text-align: center;
+}
+.form input:hover {
+  background: rgb(206, 201, 201);
+}
+/* first row */
+.first {
+  display: flex;
+}
+.company input {
+  width: 145px;
+  text-align: center;
+}
+.username input {
+  width: 100px;
+  text-align: center;
+}
+.email input {
+  width: 125px;
+}
+/* first ends */
+
+/* second row */
+.second {
+  display: flex;
+}
+.second input {
+  width: 194px;
+}
+/* second ends */
+
+/* third */
+.third input {
+  width: 410px;
+}
+/* third ends */
+
+/* fourth */
+.fourth {
+  display: flex;
+}
+.fourth input {
+  width: 125px;
+}
+/* fourth ends */
+
+/* fifth */
+.fifth textarea {
+  width: 413px;
+  border-radius: 5px;
+  background-color: rgb(253, 237, 239);
+  margin: 0.4rem;
+  border: 0.1rem solid rgb(192, 181, 181);
+  font-size: 15px;
+  font-display: center;
+  resize: none;
+}
+.fifth textarea:hover {
+  background-color: rgb(243, 226, 229);
+}
+/* fifth ends */
+
+/* Update */
+button {
+  background-color: #277588;
+  border-radius: 70px;
+  font-weight: bold;
+  padding-right: 6px;
+  width: 135px;
+  height: 50px;
+  position: absolute;
+  bottom: 20px;
+  left: 160px;
+}
+button a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+}
+button:hover {
+  background-color: grey;
+}
